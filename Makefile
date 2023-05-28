@@ -1,7 +1,6 @@
-C_FILES := $(wildcard src/*.c)
-H_FILES := $(wildcard include/*.h)
 TEST := test.c
 TARGET := a.out
+H_FILE := cclargs.h
 
-$(TARGET): $(C_FILES) $(TEST) $(H_FILES)
-	gcc -o $@ $(C_FILES) $(TEST)
+$(TARGET): $(TEST) $(H_FILE)
+	gcc -o $@ $(TEST)
