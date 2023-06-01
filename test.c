@@ -13,7 +13,7 @@ int main(ARGS) {
         ARG_FLAG(is_verbose, "v", "verbose")
         ARG_FLAG(is_static, "s", "static")
         ARG_STRING(filename, "-o")
-        ARG_MULTI("m", "multiple", "%d %s$%d", &val1, val2, &val3)
+        ARG_MULTI("m", "multiple", "%d %s %d", &val1, val2, &val3)
     END_PARSE_ARGS
 
     printf("verbose: %d\nstatic: %d\nj: %d\nfilename: %s\n", is_verbose, is_static, j, filename);
