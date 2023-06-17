@@ -4,7 +4,7 @@ A simple header library for parsing command line arguments in C.
 
 ## Usage
 
-Simply download `cclargs.h` to an appropriate place in the project and include it on your main file.
+Simply download [cclargs.h](cclargs.h) to an appropriate place in the project and include it on your main file.
 ---
 
 Example:
